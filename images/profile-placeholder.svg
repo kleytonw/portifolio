@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="300" viewBox="0 0 300 300">
+  <rect width="300" height="300" fill="#e0e0e0" rx="150"/>
+  <circle cx="150" cy="120" r="50" fill="#bdbdbd"/>
+  <ellipse cx="150" cy="250" rx="80" ry="60" fill="#bdbdbd"/>
+  <text x="150" y="290" text-anchor="middle" fill="#757575" font-size="12">Sua Foto</text>
+</svg>
