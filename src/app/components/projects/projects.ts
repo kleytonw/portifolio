@@ -55,6 +55,14 @@ export class Projects {
       tags: ['Angular'],
       github: '#',
       demo: '#',
+    }, {
+      title: 'Projeto Laços que transformam',
+      description: 'Projeto Laços que transformam feito para uma ONG para arrecadar fundos. Feito com NextJs',
+      image: 'images/projects/lacos-que-transformam.jpeg',
+      link: 'https://www.lacosquetransformam.com.br/',
+      tags: ['NextJs'],
+      github: '#',
+      demo: '#',
     },
   ];
 }
