@@ -1,0 +1,20 @@
+<section id="habilidades">
+  <div class="container">
+    <h2 class="section-title">Habilidades</h2>
+    <p class="section-subtitle">Tecnologias e ferramentas que utilizo no dia a dia</p>
+
+    <div class="skills-grid">
+      @for (skill of skills; track skill.name) {
+        <div class="skill-card">
+          <div class="skill-icon" [style.background]="skill.color + '20'">
+            <span [style.color]="skill.color">{{ skill.icon }}</span>
+          </div>
+          <h3>{{ skill.name }}</h3>
+          <div class="skill-bar">
+            <div class="skill-progress" [style.width]="skill.level + '%'" [style.background]="skill.color"></div>
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+</section>

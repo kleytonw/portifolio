@@ -1,0 +1,23 @@
+<header class="header" [class.scrolled]="isScrolled">
+  <div class="container header-content">
+    <a href="#" class="logo">
+      <span class="logo-bracket">&lt;</span>
+      <span class="logo-name">Kleyton Willian</span>
+      <span class="logo-bracket"> /&gt;</span>
+    </a>
+
+    <nav class="nav" [class.active]="menuOpen">
+      <a href="#inicio" (click)="closeMenu()">Inicio</a>
+      <a href="#sobre" (click)="closeMenu()">Sobre</a>
+      <a href="#habilidades" (click)="closeMenu()">Habilidades</a>
+      <a href="#projetos" (click)="closeMenu()">Projetos</a>
+      <a href="#contato" (click)="closeMenu()">Contato</a>
+    </nav>
+
+    <button class="menu-toggle" (click)="toggleMenu()" [attr.aria-label]="'Menu'">
+      <span [class.open]="menuOpen"></span>
+      <span [class.open]="menuOpen"></span>
+      <span [class.open]="menuOpen"></span>
+    </button>
+  </div>
+</header>
